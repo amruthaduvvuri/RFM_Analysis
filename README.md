@@ -1,17 +1,24 @@
 
-# RFM Analysis and K-Means Clustering
+# 🧮 Customer Segmentation using RFM Analysis
 
-This repository demonstrates how to perform **Recency, Frequency, and Monetary (RFM)** analysis on customer transactional data, followed by **K-Means clustering** to segment customers into different groups. The project provides insights into customer behavior, which can be useful for targeted marketing or personalized recommendations.
+This project performs customer segmentation using RFM (Recency, Frequency, Monetary) analysis combined with K-Means clustering to help a business identify high-value, at-risk, and inactive customer groups for targeted marketing.
 
-## Overview
+## 📌 Objective
+To segment customers based on purchasing behavior and recommend strategic actions for increasing retention and revenue.
 
-The project uses customer transactional data (CSV format) to perform RFM analysis and clustering. The analysis is followed by:
-1. **RFM Calculation**: We calculate Recency, Frequency, and Monetary metrics for each customer.
-   - **Recency**: Number of days since the most recent purchase.
-   - **Frequency**: Number of unique orders made by the customer.
-   - **Monetary**: Total amount spent by the customer.
-   
-2. **K-Means Clustering**: After normalizing the RFM values, K-Means clustering is applied to segment customers into distinct groups based on their purchasing behavior.
+## 🛠 Tech Stack
+- Python, Pandas, NumPy
+- Seaborn, Matplotlib
+- scikit-learn (KMeans)
 
-3. **Visualizations**: The project also includes several visualizations to explore the customer clusters and RFM distributions.
+## 📊 Key Insights
+- Identified **4 distinct customer segments**
+- **Cluster 2 (8% of users)** contributed to a disproportionately high share of total revenue
+- **60% of customers** were low-frequency and at churn risk — recommended onboarding/reactivation campaigns
 
+## 🧠 Business Impact
+- Improved clarity on which users to target for loyalty programs
+- Helped marketing team focus on high-ROI clusters
+- Enabled data-driven reactivation plans for dormant users
+
+---
