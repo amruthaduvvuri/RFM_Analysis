@@ -20,5 +20,7 @@ To segment customers based on purchasing behavior and recommend strategic action
 - Improved clarity on which users to target for loyalty programs
 - Helped marketing team focus on high-ROI clusters
 - Enabled data-driven reactivation plans for dormant users
+## 🔗 Links
+- 📂 [Project Notebook](https://colab.research.google.com/drive/15p2Hhqpm1isrgjcBUxeL5kOhSGlHYlLk)
 
 ---
